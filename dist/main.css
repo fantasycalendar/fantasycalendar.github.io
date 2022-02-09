@@ -483,11 +483,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   left: 0px;
 }
 
-.my-4 {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-}
-
 .flex {
   display: flex;
 }
@@ -612,6 +607,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding: 1rem;
 }
 
+.py-12 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
 .py-8 {
   padding-top: 2rem;
   padding-bottom: 2rem;
@@ -625,11 +625,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .py-5 {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
-}
-
-.py-12 {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
 }
 
 .pt-4 {
@@ -772,7 +767,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 
   4% {
-    transform: translate(0px, 1px) rotate(.5deg);;
+    transform: translate(0px, 1px) rotate(-.5deg);;
   }
 
   6% {
@@ -780,7 +775,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 
   8% {
-    transform: translate(1px, 0px) rotate(.5deg);;
+    transform: translate(1px, 0px) rotate(-.5deg);;
   }
 
   10% {
@@ -788,7 +783,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 
   12% {
-    transform: translate(1px, 0px) rotate(.5deg);;
+    transform: translate(1px, 0px) rotate(-.5deg);;
   }
 
   14% {
@@ -796,7 +791,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 
   16% {
-    transform: translate(0px, 1px) rotate(.5deg);;
+    transform: translate(0px, 1px) rotate(-.5deg);;
   }
 
   18% {
@@ -804,7 +799,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 
   20% {
-    transform: translate(0px, 1px) rotate(.5deg);;
+    transform: translate(0px, 1px) rotate(-.5deg);;
   }
 
   22% {
@@ -812,7 +807,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 
   24% {
-    transform: translate(0px, 0px) rotate(.5deg);;
+    transform: translate(0px, 0px) rotate(-.5deg);;
   }
 
   26% {
@@ -820,7 +815,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 
   28% {
-    transform: translate(1px, 1px) rotate(.5deg);;
+    transform: translate(1px, 1px) rotate(-.5deg);;
   }
 
   30% {
@@ -828,7 +823,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 
   32% {
-    transform: translate(1px, 0px) rotate(.5deg);;
+    transform: translate(1px, 0px) rotate(-.5deg);;
   }
 
   34% {
@@ -836,7 +831,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 
   36% {
-    transform: translate(0px, 1px) rotate(.5deg);;
+    transform: translate(0px, 1px) rotate(-.5deg);;
   }
 
   38% {
@@ -844,7 +839,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 
   40% {
-    transform: translate(1px, 1px) rotate(.5deg);;
+    transform: translate(1px, 1px) rotate(-.5deg);;
   }
 
   42% {
@@ -852,7 +847,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 
   44% {
-    transform: translate(1px, 1px) rotate(.5deg);;
+    transform: translate(1px, 1px) rotate(-.5deg);;
   }
 
   46% {
@@ -860,7 +855,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 
   48% {
-    transform: translate(1px, 1px) rotate(.5deg);;
+    transform: translate(1px, 1px) rotate(-.5deg);;
   }
 
   50% {
@@ -868,7 +863,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 
   52% {
-    transform: translate(1px, 0px) rotate(.5deg);;
+    transform: translate(1px, 0px) rotate(-.5deg);;
   }
 
   54% {
@@ -876,7 +871,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 
   56% {
-    transform: translate(0px, 0px) rotate(.5deg);;
+    transform: translate(0px, 0px) rotate(-.5deg);;
   }
 
   58% {
@@ -884,7 +879,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 
   60% {
-    transform: translate(1px, 1px) rotate(.5deg);;
+    transform: translate(1px, 1px) rotate(-.5deg);;
   }
 
   62% {
@@ -892,7 +887,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 
   64% {
-    transform: translate(1px, 0px) rotate(.5deg);;
+    transform: translate(1px, 0px) rotate(-.5deg);;
   }
 
   66% {
@@ -900,7 +895,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 
   68% {
-    transform: translate(1px, 0px) rotate(.5deg);;
+    transform: translate(1px, 0px) rotate(-.5deg);;
   }
 
   70% {
@@ -908,7 +903,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 
   72% {
-    transform: translate(0px, 0px) rotate(.5deg);;
+    transform: translate(0px, 0px) rotate(-.5deg);;
   }
 
   74% {
@@ -916,7 +911,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 
   76% {
-    transform: translate(0px, 1px) rotate(.5deg);;
+    transform: translate(0px, 1px) rotate(-.5deg);;
   }
 
   78% {
@@ -924,7 +919,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 
   80% {
-    transform: translate(0px, 0px) rotate(.5deg);;
+    transform: translate(0px, 0px) rotate(-.5deg);;
   }
 
   82% {
@@ -932,7 +927,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 
   84% {
-    transform: translate(0px, 0px) rotate(.5deg);;
+    transform: translate(0px, 0px) rotate(-.5deg);;
   }
 
   86% {
@@ -940,7 +935,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 
   88% {
-    transform: translate(1px, 1px) rotate(.5deg);;
+    transform: translate(1px, 1px) rotate(-.5deg);;
   }
 
   90% {
@@ -948,7 +943,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 
   92% {
-    transform: translate(0px, 0px) rotate(.5deg);;
+    transform: translate(0px, 0px) rotate(-.5deg);;
   }
 
   94% {
@@ -956,7 +951,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 
   96% {
-    transform: translate(0px, 1px) rotate(.5deg);;
+    transform: translate(0px, 1px) rotate(-.5deg);;
   }
 
   98% {
@@ -974,7 +969,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 
   4% {
-    transform: translate(0px, 1px) rotate(.5deg);;
+    transform: translate(0px, 1px) rotate(-.5deg);;
   }
 
   6% {
@@ -982,7 +977,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 
   8% {
-    transform: translate(1px, 0px) rotate(.5deg);;
+    transform: translate(1px, 0px) rotate(-.5deg);;
   }
 
   10% {
@@ -990,7 +985,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 
   12% {
-    transform: translate(1px, 0px) rotate(.5deg);;
+    transform: translate(1px, 0px) rotate(-.5deg);;
   }
 
   14% {
@@ -998,7 +993,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 
   16% {
-    transform: translate(0px, 1px) rotate(.5deg);;
+    transform: translate(0px, 1px) rotate(-.5deg);;
   }
 
   18% {
@@ -1006,7 +1001,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 
   20% {
-    transform: translate(0px, 1px) rotate(.5deg);;
+    transform: translate(0px, 1px) rotate(-.5deg);;
   }
 
   22% {
@@ -1014,7 +1009,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 
   24% {
-    transform: translate(0px, 0px) rotate(.5deg);;
+    transform: translate(0px, 0px) rotate(-.5deg);;
   }
 
   26% {
@@ -1022,7 +1017,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 
   28% {
-    transform: translate(1px, 1px) rotate(.5deg);;
+    transform: translate(1px, 1px) rotate(-.5deg);;
   }
 
   30% {
@@ -1030,7 +1025,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 
   32% {
-    transform: translate(1px, 0px) rotate(.5deg);;
+    transform: translate(1px, 0px) rotate(-.5deg);;
   }
 
   34% {
@@ -1038,7 +1033,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 
   36% {
-    transform: translate(0px, 1px) rotate(.5deg);;
+    transform: translate(0px, 1px) rotate(-.5deg);;
   }
 
   38% {
@@ -1046,7 +1041,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 
   40% {
-    transform: translate(1px, 1px) rotate(.5deg);;
+    transform: translate(1px, 1px) rotate(-.5deg);;
   }
 
   42% {
@@ -1054,7 +1049,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 
   44% {
-    transform: translate(1px, 1px) rotate(.5deg);;
+    transform: translate(1px, 1px) rotate(-.5deg);;
   }
 
   46% {
@@ -1062,7 +1057,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 
   48% {
-    transform: translate(1px, 1px) rotate(.5deg);;
+    transform: translate(1px, 1px) rotate(-.5deg);;
   }
 
   50% {
@@ -1070,7 +1065,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 
   52% {
-    transform: translate(1px, 0px) rotate(.5deg);;
+    transform: translate(1px, 0px) rotate(-.5deg);;
   }
 
   54% {
@@ -1078,7 +1073,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 
   56% {
-    transform: translate(0px, 0px) rotate(.5deg);;
+    transform: translate(0px, 0px) rotate(-.5deg);;
   }
 
   58% {
@@ -1086,7 +1081,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 
   60% {
-    transform: translate(1px, 1px) rotate(.5deg);;
+    transform: translate(1px, 1px) rotate(-.5deg);;
   }
 
   62% {
@@ -1094,7 +1089,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 
   64% {
-    transform: translate(1px, 0px) rotate(.5deg);;
+    transform: translate(1px, 0px) rotate(-.5deg);;
   }
 
   66% {
@@ -1102,7 +1097,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 
   68% {
-    transform: translate(1px, 0px) rotate(.5deg);;
+    transform: translate(1px, 0px) rotate(-.5deg);;
   }
 
   70% {
@@ -1110,7 +1105,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 
   72% {
-    transform: translate(0px, 0px) rotate(.5deg);;
+    transform: translate(0px, 0px) rotate(-.5deg);;
   }
 
   74% {
@@ -1118,7 +1113,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 
   76% {
-    transform: translate(0px, 1px) rotate(.5deg);;
+    transform: translate(0px, 1px) rotate(-.5deg);;
   }
 
   78% {
@@ -1126,7 +1121,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 
   80% {
-    transform: translate(0px, 0px) rotate(.5deg);;
+    transform: translate(0px, 0px) rotate(-.5deg);;
   }
 
   82% {
@@ -1134,7 +1129,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 
   84% {
-    transform: translate(0px, 0px) rotate(.5deg);;
+    transform: translate(0px, 0px) rotate(-.5deg);;
   }
 
   86% {
@@ -1142,7 +1137,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 
   88% {
-    transform: translate(1px, 1px) rotate(.5deg);;
+    transform: translate(1px, 1px) rotate(-.5deg);;
   }
 
   90% {
@@ -1150,7 +1145,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 
   92% {
-    transform: translate(0px, 0px) rotate(.5deg);;
+    transform: translate(0px, 0px) rotate(-.5deg);;
   }
 
   94% {
@@ -1158,7 +1153,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 
   96% {
-    transform: translate(0px, 1px) rotate(.5deg);;
+    transform: translate(0px, 1px) rotate(-.5deg);;
   }
 
   98% {
@@ -1171,8 +1166,8 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 .hover\:animate-wiggle:hover {
-  -webkit-animation: wiggle .1s ease-in-out infinite;
-          animation: wiggle .1s ease-in-out infinite;
+  -webkit-animation: wiggle 1s ease-in-out infinite;
+          animation: wiggle 1s ease-in-out infinite;
 }
 
 .hover\:border-neutral-400:hover {
